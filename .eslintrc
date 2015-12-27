@@ -1,0 +1,41 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "ecmaFeatures": {
+    "blockBindings": true,
+    "jsx": true,
+    "templateStrings": true,
+    "arrowFunctions": true,
+    "objectLiteralShorthandMethods": true,
+    "modules": true,
+    "destructuring": true
+  },
+  "rules": {
+    "brace-style": [2, "stroustrup"],
+    "camelcase": [2, {"properties": "never"}],
+    "comma-dangle": [2, "always-multiline"],
+    "comma-style": 2,
+    "curly": 2,
+    "eqeqeq": 2,
+    "func-names": 0,
+    "handle-callback-err": 2,
+    "indent": [2, 2],
+    "jsx-quotes": 0,
+    "new-cap": 0,
+    "no-else-return": 2,
+    "no-proto": 0,
+    "no-shadow": 0,
+    "no-unused-vars": 2,
+    "no-use-before-define": 0,
+    "no-var": 2,
+    "object-shorthand": 0,
+    "one-var": [2, "never"],
+    "prefer-const": 0,
+    "quotes": [2, "single"],
+    "react/no-did-mount-set-state": 0,
+    "react/prop-types": 0,
+    "semi": 2,
+    "strict": 0,
+    "space-before-function-paren": [2, "never"]
+  }
+}
